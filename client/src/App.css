@@ -1,0 +1,122 @@
+.App{
+  
+ 
+  
+}
+main{
+  display: flex;
+  gap:107px;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: flex-end;
+}
+.form_wrap{
+  flex-basis:563px;
+  display: flex;  
+  flex-direction: column;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  
+}
+h2{
+  font-weight: normal;
+  font-size: 40px;
+}
+input , textarea{
+  padding: 31px 46px 30px 46px;
+  font-size:18px;
+}
+input{
+  margin-bottom: 8px;
+}
+textarea{
+  resize: none;
+  margin-bottom: 23px;
+}
+::placeholder{
+  color:black;
+  opacity:1;
+}
+button{
+  padding: 28px 52px;
+  display: inline-block;
+  border-radius: 100px;
+  border:none;
+  color:white;
+  width:218px;
+  cursor: pointer;
+  background-color: #FAD34F;
+}
+.map{
+  border-radius: 1000px 0 0  1000px;
+  overflow: hidden;
+}
+img{
+  display: block;
+}
+footer{
+  height: 200px;
+  max-width: 1440px;
+  margin: 0 auto; 
+  border: 1px solid #D8D8D8;
+}
+.socials{
+  display: flex;
+  gap: 26px;
+  padding-top:80px;
+  padding-bottom: 107px;
+  padding-left: 300px;
+}
+.socials > *{
+  width: 13px;
+  height: 13px;
+  cursor: pointer;
+  
+} 
+button[disabled]{
+  background: #fce087;
+  cursor: default;
+}
+footer, .form_wrap , .App{
+  position: relative;
+}
+footer{
+  overflow: hidden;
+}
+.slime{
+  position: absolute
+}
+.y_s_form{
+  right: -187px;
+  bottom: 50%;
+}
+.p_s_form{
+  right: -337px;
+  bottom: 30%;
+}
+.p_s_footer{
+  left: 10px;
+  top: 5px;
+}
+.y_s_footer{
+  right: -40px;
+  top: 50%;
+}
+.g_s_footer{
+  right: 100px;
+  top:0;
+}
+.error{
+  margin-bottom: 8px;
+}
+.modal{
+  width: 150px;
+  position: absolute;
+  left:0;
+  color:white;
+  top:50%;
+  transform: translateY(-50%);
+  
+}

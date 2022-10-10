@@ -1,0 +1,24 @@
+{
+  "name": "zenbit",
+  "version": "1.0.0",
+  "description": "zenbit-test-case-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "author": "Alexandr Shobotenko",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0"
+  },
+  "engines": {
+    "node": "16.15.1"
+  }
+}
